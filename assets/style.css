@@ -13,11 +13,20 @@ body{
     font-family: 'Bai Jamjuree', sans-serif;
     color: #9FABB2;
 }
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+.child-container{
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+}
 h1,h2,h3,h4,h5,h6{
     color:#000000;
 }
 header{
-    background-image: url(/assets/img/header.svg), linear-gradient(0deg, rgba(255,255,255,0.5324511201839882) 21%, rgba(159,171,178,0.8125814133435973) 100%);
+    background-image: url(/assets/img/bg-header-desktop.png), linear-gradient(0deg, rgba(255,255,255,0.5324511201839882) 21%, rgba(159,171,178,0.8125814133435973) 100%);
     background-size: cover;
     background-position: center center;
     text-align: center;
@@ -52,3 +61,68 @@ main .history{
     background-color: hsl(233, 100%, 69%);
     box-shadow: 0px 3px hsla(233, 66%, 60%, 0.462);
 }
+.keep-track{
+    padding: 3em 0;
+}
+.keep-track>h3{
+    font-size: 2.2rem;
+}
+.keep-track>p{
+    margin: 1.2em auto 5em;
+    line-height: 1.6em;
+}
+.lower{
+    display: flex;
+}
+.lower-left img{
+    width: 100%;}
+    .feature-container{
+        margin-left: 17%;
+        height: 90%;
+        width: 54%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .feature h5{
+        font-size: 1.5rem;
+    }
+    .feature p{
+        line-height: 1.8em;
+        margin-top: .5em;
+    }
+    .accessibility{
+        text-align: center;
+        padding: 3em 0;
+    }
+    .accessibility h3{
+        font-size: 2.2rem;
+    }
+    .accessibility p{
+        margin: 1.2em auto 5em;
+        line-height: 1.6em;
+    }
+    .tools{
+        text-align: center;
+        padding: 1em 0 3em;
+    }
+    .tools h3{
+        font-size: 2.2rem;
+    }
+    .tools>p{
+        margin: 1.2em auto 3.8em;
+    }
+    .tools .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .tool{
+        flex: 0 0 32%;
+    }
+    .tool h5{
+        font-size: 1.5rem;
+        margin: 1.5em 0 .5em;
+    }
+     .tool p{
+        line-height: 1.7em;
+    }
