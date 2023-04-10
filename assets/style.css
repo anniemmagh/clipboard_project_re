@@ -138,3 +138,15 @@ main .history{
         width: 90%;
         margin: auto;
     }
+    .install .small-container{
+        padding: 3em 0 9em;
+        max-width : 750px;
+    }
+    .about h3{
+        font-size: 2.4rem;
+        font-weight: 600;
+    }
+    .about p{
+        margin: 1em auto 2em;
+        line-height: 1.4em;
+    }
